@@ -1,0 +1,60 @@
+:root {
+    --lav: #c390ed;
+    --black: #00000025;
+    --red: #ff0000;
+    --pink: #000000;
+    --blue: #a2b7ee;
+}
+
+header {
+    background-color: var(--blac);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: var(--lav);
+    background-color: var(--blac);
+    margin: 0 auto;
+    text-align: center;
+    /*box-shadow: 5px 5px #000000;*/
+    padding: 10px;
+}
+
+h2 {
+    color: var(--red);
+    background-color: var(--black);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.card1 {
+    border-radius: 0%;
+    margin: 0 auto;
+    background-color: var(--lav);
+    text-align: center;
+}
+
+.card2 {
+    border-radius: 0%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+/*@media screen {
+    .card2 {
+        flex: 0 0 50%;
+        max-width: 50%;}
+}
+
+@media screen {
+    .card3 {
+        flex: 0 0 50%;
+        max-width: 50%;}
+}*/
