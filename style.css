@@ -1,51 +1,113 @@
 :root {
-    --lav: #c390ed;
-    --black: #00000025;
+    --lav: #9262b969;
+    --black: #000000;
     --red: #ff0000;
     --pink: #000000;
     --blue: #a2b7ee;
+    --brightblue: #4508ff;
+    --white: #ffffff4b;
+    --grey: #f0EAD6;
+}
+
+body {
+    background-color: var(--grey);
 }
 
 header {
-    background-color: var(--blac);
+    background-color: var(--lav);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 10px;
+    border-radius: 20px;
+}
+
+.navi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: inline-flexbox;
+    justify-content: space-between;
+    min-width: 50px;
+    max-width: 75px;
+    padding: 10px 100px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-flexbox;
+    background-color: #ff0000;
+    justify-content: end;
+    margin: 5px;
+}
+
+nav a {
+    color: var(--white);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: var(--red);
 }
 
 h1 {
     color: var(--lav);
-    background-color: var(--blac);
-    margin: 0 auto;
+    background-color: var(--grey);
     text-align: center;
-    /*box-shadow: 5px 5px #000000;*/
-    padding: 10px;
+    border-radius: 20px;
 }
 
 h2 {
     color: var(--red);
-    background-color: var(--black);
+    background-color: var(--grey);
     margin: 0 auto;
     text-align: center;
     padding: 10px;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card1 {
-    border-radius: 0%;
-    margin: 0 auto;
+    border-radius: 20px;
+    margin: 20px auto;
     background-color: var(--lav);
     text-align: center;
+    flex: 1 0 100%;
 }
 
 .card2 {
-    border-radius: 0%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+    border-radius: 20px;
+    margin: 10px;
+    flex: 1 0 45%;
     text-align: center;
-    justify-content: space-between;
+    position: relative;
+    justify-content: center;
+    background-color: var(--blue);
+    padding: 10px;
+    max-width: 48%;
 }
 
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact {
+    border-radius: 20px;
+    margin: 10px;
+    flex: 1 0 48%;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    background-color: var(--blue);
+    padding: 10px;
+    max-width: 45%;
+}
 
 /*@media screen {
     .card2 {
@@ -58,3 +120,23 @@ h2 {
         flex: 0 0 50%;
         max-width: 50%;}
 }*/
+
+@media screen and (min-width: 992px) {
+    .card2 {
+    width: 50%;
+}
+
+    /* .card-column {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+} */
+}
+
+footer {
+    background-color: var(--lav);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 10px;
+}
