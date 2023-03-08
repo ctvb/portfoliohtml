@@ -32,7 +32,7 @@
     <section class="card1">
         <figure class="card-head"> Horseon Refactor </figure>
             <div class="card-body">
-                <img src="images\fancybevvy3.jpg" alt="Fancy bevvy with raspberries" width="300" height="360" />
+                <img src="images\digital-marketing-meeting.jpg" alt="People around a table discussing marketing" width="550" height="360" />
                 <p>In this project I took the original code from a webpage for Horseon Marketing to fix features that didn't work, cleaned up the code with better/more modern semantics, and added alt text for images</p>
             </div>
     </section>
@@ -53,7 +53,7 @@
     <section class="card1" id="projects">
         <figure class="card-head">Project 4</figure>
             <div class="card-body">
-                <img src="images\vicspon.jpg" alt="Victoria Sponge cake with fruit"  width="300" height="360" />
+                <img src="images\fancybevvy3.jpg" alt="Fancy bevvy with raspberries" width="300" height="360" />
                 <p>Coming Soonest!</p>
             </div>
     </section>
@@ -62,38 +62,37 @@
     <section class="contact" id="contact">
         <figure class="contact-head">Contact</figure>
             <div class="contact-body">
-                <img src="images\yellowbevvy.jpg" alt="Yellow cocktail, honestly looks like it could just be a bunch of eggyolks"  width="300" height="360" />
-                <p>Coming Eventually</p>
+                <div class="container">
+                    <form action="action_page.php">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="united kingdom">United Kingdom</option>
+                        </select>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            <input type="submit" value="Submit">
+                    </form>
+                </div>
             </div>
     </section>
     <section class="contact" id="resume">
         <figure class="contact-head">Resume</figure>
             <div class="contact-body">
-                <img src="images\mocaron.jpg" alt="Sticky Toffee Pudding with Vanilla Icecream"  width="300" height="360" />
+                <img src="images\mocaron.jpg" alt="Lemon macrons"  width="300" height="360" />
                 <p>Coming Eventually-er!</p>
             </div>
     </section>
-</div>
+</div> 
     <footer>
         <h3>Thanks for Visiting!!</h3>
     </footer>
-<!-- <div class="container">
-    <form action="action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label for="country">Country</label>
-        <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-        </select>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            <input type="submit" value="Submit">
 
-    </form>
-</div>  -->
 </body>
 </html>

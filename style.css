@@ -112,6 +112,12 @@ h2 {
     border: dashed;
 }
 
+.container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
 /*@media screen {
     .card2 {
         flex: 0 0 50%;
@@ -133,10 +139,6 @@ h2 {
     flex: 0 0 33.333%;
     max-width: 33.333%;
 } */
-}
-
-.container {
-    look good, duh
 }
 
 footer {
