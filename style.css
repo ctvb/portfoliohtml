@@ -13,14 +13,6 @@ body {
     background-color: var(--grey);
 }
 
-header {
-    background-color: var(--lav);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding: 10px;
-    border-radius: 20px;
-}
-
 .navi {
     display: flex;
     flex-wrap: wrap;
@@ -52,6 +44,14 @@ nav a:hover {
     color: var(--red);
 }
 
+header {
+    background-color: var(--lav);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 h1 {
     color: var(--lav);
     background-color: var(--grey);
@@ -74,15 +74,16 @@ h2 {
 }
 
 .card1 {
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 20px auto;
     background-color: var(--lav);
     text-align: center;
     flex: 1 0 100%;
+    border: solid;
 }
 
 .card2 {
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 10px;
     flex: 1 0 45%;
     text-align: center;
@@ -91,6 +92,7 @@ h2 {
     background-color: var(--blue);
     padding: 10px;
     max-width: 48%;
+    border: dashed;
 }
 
 .contactinfo {
@@ -98,7 +100,7 @@ h2 {
     flex-wrap: wrap;
 }
 .contact {
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 10px;
     flex: 1 0 48%;
     text-align: center;
@@ -107,6 +109,7 @@ h2 {
     background-color: var(--blue);
     padding: 10px;
     max-width: 45%;
+    border: dashed;
 }
 
 /*@media screen {
