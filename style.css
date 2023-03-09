@@ -3,6 +3,7 @@
     --red: #ff0000;
     --blue: #a2b7ee;
     --grey: #f0EAD6;
+    --peach: #f5c288;
 }
 
 body {
@@ -108,10 +109,10 @@ h2 {
     flex: 1 0 48%;
     text-align: center;
     position: relative;
-    background-color: var(--blue);
+    background-color: var(--peach);
     padding: 10px;
     max-width: 45%;
-    border: dashed;
+    border: dashed white;
 }
 
 .container {
