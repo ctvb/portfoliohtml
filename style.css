@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-    color: var(--red);
+    color: var(--blue);
     background-color: var(--grey);
     margin: 0 auto;
     text-align: center;
@@ -98,6 +98,7 @@ h2 {
 .contactinfo {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .contact {
     border-radius: 25px;
@@ -105,7 +106,6 @@ h2 {
     flex: 1 0 48%;
     text-align: center;
     position: relative;
-    justify-content: center;
     background-color: var(--blue);
     padding: 10px;
     max-width: 45%;
@@ -115,7 +115,7 @@ h2 {
 .container {
     flex-direction: column;
     flex-wrap: wrap;
-    
+    display: flex;
 }
 
 /*@media screen {
