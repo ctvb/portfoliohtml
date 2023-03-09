@@ -13,25 +13,17 @@ body {
     background-color: var(--grey);
 }
 
-.navi {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 nav ul {
-    display: inline-flexbox;
-    justify-content: space-between;
     min-width: 50px;
-    max-width: 75px;
     padding: 10px 100px;
     margin: 0 auto;
+    list-style: none;
 }
 
 nav li {
-    display: inline-flexbox;
-    background-color: #ff0000;
-    justify-content: end;
+    background-color: var(--blue);
     margin: 5px;
+    display: inline-block;
 }
 
 nav a {
