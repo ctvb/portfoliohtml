@@ -1,11 +1,7 @@
 :root {
     --lav: #9262b969;
-    --black: #000000;
     --red: #ff0000;
-    --pink: #000000;
     --blue: #a2b7ee;
-    --brightblue: #4508ff;
-    --white: #ffffff4b;
     --grey: #f0EAD6;
 }
 
@@ -21,20 +17,19 @@ nav ul {
 }
 
 nav li {
-    background-color: var(--blue);
     margin: 20px;
     display: inline-block;
 }
 
 nav a {
-    color: var(--white);
+    color: var(--grey);
     font-weight: 500;
     text-decoration: underline;
 }
 
-nav a:hover {
+/* nav a:hover {
     color: var(--red);
-}
+} */
 
 header {
     background-color: var(--lav);
@@ -43,6 +38,7 @@ header {
     padding: 10px;
     margin: 20px;
     border-radius: 25px;
+    max-width: 95%;
 }
 
 h1 {
@@ -58,7 +54,7 @@ h2 {
     background-color: var(--grey);
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     border-radius: 25px;
     margin: 20px;
 }
@@ -66,15 +62,21 @@ h2 {
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1 .card-head {
+    font-size: large;
 }
 
 .card1 {
     border-radius: 25px;
-    margin: 20px auto;
+    margin: 20px;
     background-color: var(--lav);
     text-align: center;
     flex: 1 0 100%;
     border: solid;
+    max-width: 95%;
 }
 
 .card2 {
@@ -86,15 +88,16 @@ h2 {
     justify-content: center;
     background-color: var(--blue);
     padding: 10px;
-    max-width: 48%;
+    max-width: 45%;
     border: dashed;
 }
 
-.contactinfo {
+/* .contactinfo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+} */
+
 .contact {
     border-radius: 25px;
     margin: 20px;
@@ -118,36 +121,42 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 10px;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 25px;
     margin: 20px 20px 0px 20px;
-}
-
-@media screen and (max-width: 375px) {
-    .card1 {
-        min-width: 90%;
-        max-width: 90%;
-    }
-    .card2 {
-        min-width: 90%;
-        max-width: 90%;
-    }
-    .contact {
-        min-width: 90%;
-        max-width: 90%;
-    }
 }
 
 @media screen and (max-width: 810px) {
     .card1 {
         min-width: 90%;
         max-width: 90%;
+        margin: 20px;
     }
     .card2 {
         min-width: 90%;
         max-width: 90%;
+        margin: 20px;
     }
     .contact {
         min-width: 90%;
         max-width: 90%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .card1 {
+        min-width: 90%;
+        max-width: 90%;
+        margin: 20px;
+    }
+    .card2 {
+        min-width: 90%;
+        max-width: 90%;
+        margin: 20px;
+    }
+    .contact {
+        min-width: 90%;
+        max-width: 90%;
+        margin: 20px;
     }
 }
