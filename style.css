@@ -79,6 +79,10 @@ h2 {
     max-width: 95%;
 }
 
+.card2 .card-head {
+    font-size: large;
+}
+
 .card2 {
     border-radius: 25px;
     margin: 20px auto;
@@ -114,7 +118,6 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
-    text-decoration: none;
 }
 
 /* .for .type {
