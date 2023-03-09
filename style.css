@@ -114,7 +114,13 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
+    text-decoration: none;
 }
+
+/* .for .type {
+    display: flex;
+    flex-wrap: ;
+} */
 
 footer {
     background-color: var(--lav);
