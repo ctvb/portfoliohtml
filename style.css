@@ -22,7 +22,7 @@ nav ul {
 
 nav li {
     background-color: var(--blue);
-    margin: 5px;
+    margin: 20px;
     display: inline-block;
 }
 
@@ -41,6 +41,7 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 10px;
+    margin: 20px;
     border-radius: 25px;
 }
 
@@ -49,6 +50,7 @@ h1 {
     background-color: var(--grey);
     text-align: center;
     border-radius: 25px;
+    margin: 20px;
 }
 
 h2 {
@@ -58,6 +60,7 @@ h2 {
     text-align: center;
     padding: 10px;
     border-radius: 25px;
+    margin: 20px;
 }
 
 .cards {
@@ -76,10 +79,10 @@ h2 {
 
 .card2 {
     border-radius: 25px;
-    margin: 10px;
+    margin: 20px auto;
     flex: 1 0 45%;
     text-align: center;
-    position: relative;
+    /* position: relative; */
     justify-content: center;
     background-color: var(--blue);
     padding: 10px;
@@ -94,7 +97,7 @@ h2 {
 }
 .contact {
     border-radius: 25px;
-    margin: 10px;
+    margin: 20px;
     flex: 1 0 48%;
     text-align: center;
     position: relative;
@@ -110,34 +113,41 @@ h2 {
     display: flex;
 }
 
-/*@media screen {
-    .card2 {
-        flex: 0 0 50%;
-        max-width: 50%;}
-}
-
-@media screen {
-    .card3 {
-        flex: 0 0 50%;
-        max-width: 50%;}
-}*/
-
-@media screen and (min-width: 992px) {
-    .card2 {
-    width: 50%;
-}
-
-    /* .card-column {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
-} */
-}
-
 footer {
     background-color: var(--lav);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 10px;
     border-radius: 25px 25px 0px 0px;
-    margin: 10px;
+    margin: 20px 20px 0px 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .card1 {
+        min-width: 90%;
+        max-width: 90%;
+    }
+    .card2 {
+        min-width: 90%;
+        max-width: 90%;
+    }
+    .contact {
+        min-width: 90%;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .card1 {
+        min-width: 90%;
+        max-width: 90%;
+    }
+    .card2 {
+        min-width: 90%;
+        max-width: 90%;
+    }
+    .contact {
+        min-width: 90%;
+        max-width: 90%;
+    }
 }
