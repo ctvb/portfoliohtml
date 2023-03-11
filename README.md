@@ -5,7 +5,7 @@ This is my professional portfolio where I will post projects that I have done.
 Project one is the Horseon refactor project that we completed.
 
 The following is the URL of the webpage:
-http://127.0.0.1:5500/index.html#resume
+https://ctvb.github.io/professional-portfolio/
 
 The following is a PDF of screenshots of the webpage:
 [label](Untitled%20document.pdf)
