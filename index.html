@@ -17,22 +17,37 @@
 
 <body>
     <header>
+        <!-- HEADER -->
         <h1>Nicholas Smith<h1>
             <h2>Coding Portfolio</h2>
+            <!-- NAV BAR -->
             <nav>
                 <ul>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#resume">Resume</a></li>
                 </ul>
             </nav>
+            <!-- IMAGE OF ME -->
             <img src="images\ooohwhatacoolguy.jpg" alt="Person standing infront of building" width="100" height="125" />
     </header>
+<!-- ABOUT ME -->
+<div class="cards" id="about">
+    <section class="card1">
+        <figure class="card-head"> About Me </figure>
+            <div class="card-body">
+                <p>Hey, need a webpage? I'll make it!
+                </p>
+            </div>
+    </section>
+</div>
+<!-- PROJECTS -->
 <div class="cards" id="projects">
     <section class="card1">
         <figure class="card-head"> Horseon Refactor </figure>
             <div class="card-body">
-                <a href="http://127.0.0.1:5502/index.html" target="_blank"><img src="images\digital-marketing-meeting.jpg" alt="People around a table discussing marketing" width="310" height="300" /></a>
+                <a href="https://ctvb.github.io/horseaon-refactor/" target="_blank"><img src="images\digital-marketing-meeting.jpg" alt="People around a table discussing marketing" width="400" height="360" /></a>
                 <p>In this project I took the original code from a webpage for Horseon Marketing to fix features that didn't work, cleaned up the code with better/more modern semantics, and added alt text for images.
                 </p>
             </div>
@@ -58,6 +73,7 @@
                 <p>Coming Soonest!</p>
             </div>
     </section>
+    <!-- CONTACT -->
     <section class="contact" id="contact">
         <figure class="contact-head">Contact</figure>
             <div class="contact-body">
@@ -67,28 +83,9 @@
                         <li>Email: deenicks@hotmail.com</li>
                         <li>Github: ctvb</li>
                     </ul>
-                    <!-- <form action="action_page.php">
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name...">
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-                            <label for="email">Email Address</label>
-                            <input type="text" id="email" name="Email" placeholder="Your email address...">
-                            <label for="country">Country</label>
-                        <select id="country" name="country">
-                            <option value="aaaaaaaa" placeholder="Select">Select Country</option>
-                            <option value="australia">Australia</option>
-                            <option value="canada">Canada</option>
-                            <option value="usa">USA</option>
-                            <option value="united kingdom">United Kingdom</option>
-                        </select>
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Your message here..." style="height:200px"></textarea>
-                            <input disabled type="submit" value="Submit">
-                    </form>
-                </div> -->
             </div>
     </section>
+    <!-- RESUME -->
     <section class="contact" id="resume">
         <figure class="contact-head">Resume</figure>
             <div class="contact-body">
@@ -96,7 +93,8 @@
                 <a href="./assets\Nicholas Smith Resume.pdf" target="_blank">Resume (PDF)</a>
             </div>
     </section>
-</div> 
+</div>
+<!-- FOOTER -->
     <footer>
         <h3>Thank you for visiting my portfolio.</h3>
     </footer>

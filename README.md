@@ -19,30 +19,10 @@ Lines 31-33 in the CSS sheet are currently commented out, I think as I work on t
     color: var(--red);
 } */
 
-Lines 70-89 in the HTML and 100-104 in the CSS are commented out, they make a contact form that I might look into adding in the future:
-<!-- <form action="action_page.php">
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name...">
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-                            <label for="email">Email Address</label>
-                            <input type="text" id="email" name="Email" placeholder="Your email address...">
-                            <label for="country">Country</label>
-                        <select id="country" name="country">
-                            <option value="aaaaaaaa" placeholder="Select">Select Country</option>
-                            <option value="australia">Australia</option>
-                            <option value="canada">Canada</option>
-                            <option value="usa">USA</option>
-                            <option value="united kingdom">United Kingdom</option>
-                        </select>
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Your message here..." style="height:200px"></textarea>
-                            <input disabled type="submit" value="Submit">
-                    </form>
-                </div> -->
-
 /* .contactinfo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 } */
+
+There is now an about me section with a working link in the navbar and the Horseon image links to the deployed Horseon page.
